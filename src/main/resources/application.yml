@@ -5,7 +5,9 @@ spring:
     config:
       server:
         git:
-          url:
+          uri: https://github.com/tijdrame/server-config-2023
+          clone-on-start: true
+          default-label: main
 
 #management:
 #  endpoints:
